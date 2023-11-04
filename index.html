@@ -163,22 +163,7 @@
 
    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
    <!-- Setup and start animation! -->
-   <script>      
-      var typed = new Typed('#element', {
-         strings: ['Web Developer', 'Competitive Coder'],
-         typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-      });
-   const savedScrollPosition = localStorage.getItem('scrollPosition');
-   if (savedScrollPosition !== null) {
-      window.scrollTo(0, savedScrollPosition);
-   }
-   window.addEventListener('beforeunload', () => {
-      // Save the current scroll position to local storage
-      localStorage.setItem('scrollPosition', window.scrollY);
-   });
-   </script>
+   <script src="script.js"></script>
 </body>
 
 </html>
