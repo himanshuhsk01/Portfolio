@@ -1,0 +1,361 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Times New Roman', Times, serif;
+   color: aliceblue;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: rgb(0, 0, 32);
+}
+
+.fixed-nav{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 999;
+   background-color: rgb(18,18,86);
+   height: 80px;
+}
+
+body{
+   padding-top: 80px;
+}
+
+main>section{
+   margin-top: 80px;
+}
+
+
+nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 80px;
+   background-color: rgb(18, 18, 86);
+}
+
+nav ul {
+   display: flex;
+   justify-content: center;
+}
+
+nav ul li {
+   list-style-type: none;
+   margin: 0 23px;
+   font-size: 20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+}
+
+nav ul li a:hover {
+   color: rgb(148, 148, 246);
+
+}
+
+main hr {
+   margin: 60px 84px 90px;
+   border: 1.2px solid rgb(144, 144, 251)
+}
+
+.left {
+   font-size: 1.6rem;
+   position:relative;
+   font-weight: bold;
+   left:-30px;
+}
+
+.firstsection {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 95px 0;
+}
+
+.firstsection>div {
+   width: 30%;
+}
+
+.leftsection {
+   font-size: 2.26rem;
+
+}
+
+.leftsection .btn {
+   background-color: #282883;
+   color: white;
+   font-size: 15px;
+   border: 2px solid white;
+   border-radius: 4px;
+   padding: 4px;
+   cursor: pointer;
+   margin: 20px 13px 0 0;
+  
+}
+.leftsection .btn :hover{
+   font-size: 15.2px;
+}
+.btn a{
+   text-decoration: none;
+}
+.rightsection img {
+   width: 87%;
+}
+
+.purple {
+   color: rgb(149, 63, 231);
+}
+
+#element {
+   color: rgb(162, 79, 239)
+}
+/*about me*/
+.secondsection{
+  max-width:80vw;
+  height:115vh;
+  margin:auto;
+}
+
+.secondsection h1{
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  bottom: 5px;
+}
+
+
+.secondsection .subtitle{
+  position: relative;
+  font-size: 26px;
+  color: #afafed;
+  top:10px;
+}
+.secondsection .description{
+  position: relative;
+  top:10px;
+  font-size: 20px;
+}
+
+/*skills column bar*/
+.secondsection .skill{
+  margin-top:90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill h1{
+  margin-bottom: 20px;
+}
+
+.skill .container{
+  margin:20px 0;
+}
+.container .progressbar{
+  width: 150vh;
+  height: 15px;
+  border:1px solid rgb(223, 217, 217);
+}
+
+.progressbar .progress{
+  height: 100%;
+  background-color: rgb(9, 159, 210);
+}
+
+.progressbar .label{
+  position: relative;
+  top:-40px;
+  margin-right: 100%;
+}
+.progressbar .label:hover{
+ color:rgb(71, 142, 205)
+}
+.progressbar .label2{
+  position: relative;
+  top:-55px;
+  right: -145vh;
+
+}
+
+/*eductaion*/
+
+.secondsection .education
+{
+  margin-top: 50px;
+}
+
+.education .eduflex{
+  display: flex;
+  margin-top: 20px;
+}
+.eduflex .leftlogo img{
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.eduflex .leftlogo img:hover {
+  box-shadow: 0 0 20px rgba(243, 239, 239, 0.5);
+  cursor: pointer;
+}
+.eduflex .edudesc{
+  font-size: 20px;
+  color: #afafed;
+  position: relative;
+  left: 35px;
+}
+.edudesc .college{
+  font-size: 28px;
+  position: relative;
+  top:-5px;
+}
+/*experience*/
+.thirdsection {
+  width:80vw;
+  height:67vh;
+  margin:auto;
+}
+
+.thirdsection h1{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.thirdsection .expe{
+  display: flex;
+}
+
+.expe .exposys{
+  border: 3px solid rgb(76, 67, 67);
+  height: 49vh;
+  width: 39vh;
+  margin-right:30vh;
+}
+
+.exposys .circular{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 30px 40px;
+  transition: box-shadow 0.3s ease-in-out; 
+}
+.exposys .circular:hover {
+  box-shadow: 0 0 60px rgba(243, 239, 239, 0.5); /* Apply the shadow on hover */
+}
+.exposys-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exposys .details{
+  position: relative;
+  top:15px;
+  font-size: 15px;
+}
+
+.details .web{
+  position: relative;
+  left:20px;
+  top:4px;
+  color: #505acf;
+}
+
+.details .web_center{
+  position: relative;
+  padding-top: 10px;
+  left:70px;
+}
+
+/*contact me*/
+.contactme{
+   width:80vw ;
+   height: 76vh;
+   margin: auto;
+}
+
+.contactme h1{
+   font-size: 30px;
+   margin-bottom: 38px;
+}
+
+.top .name{
+   display: flex;
+   font-size: 27px;
+   margin-bottom: 20px;
+}
+
+.name .fa-solid.fa-user{
+   padding-right: 20px;
+}
+
+.name .fa-solid.fa-envelope{
+   padding-right: 20px;
+}
+
+.name .det{
+   color: #acaeb6;
+   padding-left: 20px;
+}
+
+.contactme .bottom{
+   display: flex;
+   margin-top: 70px;
+   font-size: 27px;
+}
+
+.bottom .bottom_left{
+   margin-right: 20vh;
+}
+
+.bottom_left .fa-solid.fa-download{
+   margin: 20px 0 0 20px;
+   font-size: 40px;
+   border :2px solid white;
+   border-radius: 7px;
+   padding: 7px 45px;
+}
+
+.bottom_left .fa-solid.fa-download:hover{
+   cursor: pointer;
+   font-size: 43px;
+   color: #505acf;
+}
+
+.bottom_right .fa-brands.fa-linkedin{
+   font-size: 40px;
+   margin:28px 30px 0 24px;
+}
+.bottom_right .fa-brands.fa-linkedin:hover{
+   cursor: pointer;
+   font-size: 43px;
+   color: #505acf;
+}
+.bottom_right .fa-brands.fa-github{
+   font-size: 40px;
+}
+.bottom_right .fa-brands.fa-github:hover
+  {
+   cursor: pointer;
+   font-size: 43px;
+   color: #505acf;
+  }
+/*footer*/
+footer {
+   background-color: #1c1c28;
+
+}
+
+footer .text-center {
+   text-align: center;
+   padding: 12px 0;
+   color: rgb(203, 200, 200);
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Himanshu-developer portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+   <header>
+      <nav class="fixed-nav">
+         <div class="left">Himanshu Portfolio</div>
+         <div class="right">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#line1">About</a></li>
+               <li><a href="#line2">Experience</a></li>
+               <li><a href="#line3">Contact Me</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+
+   <main>
+      <section class="firstsection" >
+         <div class="leftsection">
+            Hi, My name is <span class="purple">Himanshu</span>
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+               <button class="btn"><a href="https://drive.google.com/file/d/1Ua_aC_bvHrckN6PGjZ_u4ZhM1qAWsTW8/view?usp=sharing" target="__blank">View Resume</a></button>
+               <button class="btn"><a href="https://github.com/himanshuhsk01" target="__blank">Github</a></button>
+            </div>
+         </div>
+         <div class="rightsection">
+            <img src="bg.png" alt="">
+         </div>
+      </section>
+
+      <hr id="line1">
+  
+   <section class ="secondsection">
+ <!--Description-->
+       <h1 >About me</h1>
+         <div class="subtitle">I am Himanshu Shukla</div>
+         <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aperiam harum, rem quaerat possimus, 
+            cupiditate sint non asperiores architecto, 
+            modi rerum neque veniam dolorem. Impedit tempora magni quasi aperiam nostrum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt et a beatae. Perferendis animi facilis repellat possimus laborum, harum voluptate ratione dolore illo placeat doloribus eos magnam illum laudantium eum.
+         </div>
+ <!--skilss column bars himanshu-->
+         <div class="skill">
+            <h1>Skills</h1>
+            <div class="container">
+              <div class="progressbar">
+                  <div class="progress" style="width: 90%;"></div>
+                  <span class="label">frontend/design</span>
+                  <span class="label2">90%</span>
+              </div> 
+            </div> 
+              
+            <div class="container">
+               <div class="progressbar">
+                   <div class="progress" style="width:75%;"></div>
+                   <span class="label">Backend</span>
+                   <span class="label2">75%</span>
+               </div> 
+             </div>  
+
+             <div class="container">
+               <div class="progressbar">
+                   <div class="progress" style="width:84%;"></div>
+                   <span class="label">Programming</span>
+                   <span class="label2">84%</span>
+               </div> 
+             </div>
+
+         </div>
+<!--Education details-->
+         <div class="education">
+            <h1>Education</h1>
+            <div class="eduflex">
+            <div class="leftlogo">
+               <img src="wit.png" alt="">
+            </div>
+            <div class="edudesc">
+               <div class="college">Walchand Institute of Technology</div>
+                Bachelors of Technology in Information Technology (2020-2024)
+               <br>CGPA:9.91
+            </div>
+            </div>
+         </div>   
+      </section>
+      <hr id="line2">
+      <!--Experience-->
+
+      <section class="thirdsection">
+          <h1>Experience</h1>
+          <div class="expe">
+
+            <div class="exposys">
+               <div class="circular">
+                  <img src="expo.jpg" alt="" width="160" height="160"/>
+               </div>
+               <div class="details">
+                 Completed Internship programme as
+                 <br><span class="web">WEB DEVELOPER INTERN </span>
+                 <div class="web_center">(1 month)</div>
+               </div>
+            </div>
+
+            <div class="exposys">
+               <div class="circular">
+                  <img src="basket.jpg" alt="" width="160" height="160"/>
+               </div>
+               <div class="details">
+                 Currently Working as Intern for role of 
+                 <br><span class="web">IT &WEB DEVELOPMENT</span>
+                 
+               </div>
+            </div>
+         
+          </div>
+      </section>
+      <hr id="line3">
+      <!--contact me-->
+      <section class="contactme">
+         <h1>Contact me</h1>
+          <div class="top">
+            <div class="name">
+               <i class="fa-solid fa-user"></i> Name:
+            <span class="det">Himanshu Shukla</span>
+            </div>
+
+            <div class="name">
+               <i class="fa-solid fa-envelope"></i> Email:
+               <span class="det">himanshu.hsk02@gmail.com</span>
+            </div> 
+          </div>
+
+          <div class="bottom">
+            <div class="bottom_left">
+               Download resume
+               <br><a href="https://drive.google.com/uc?export=download&id=1Ua_aC_bvHrckN6PGjZ_u4ZhM1qAWsTW8" download="resume.pdf"><i class="fa-solid fa-download"></i></a>
+            </div>
+            <div class="bottom_right">
+               Get in Touch
+               <br><a href="https://www.linkedin.com/in/himanshu-shukla-187a3a238/" target="__blank"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://github.com/himanshuhsk01" target="__blank"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+          </div>
+      </section>
+   </main>
+
+   <footer>
+      <div class="text-center">
+         Copyrights &#169; www.himanshuportfolio.com | All rights are reserved
+      </div>
+   </footer>
+
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <!-- Setup and start animation! -->
+   <script>      
+      var typed = new Typed('#element', {
+         strings: ['Web Developer', 'Competitive Coder'],
+         typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+      });
+   const savedScrollPosition = localStorage.getItem('scrollPosition');
+   if (savedScrollPosition !== null) {
+      window.scrollTo(0, savedScrollPosition);
+   }
+   window.addEventListener('beforeunload', () => {
+      // Save the current scroll position to local storage
+      localStorage.setItem('scrollPosition', window.scrollY);
+   });
+   </script>
+</body>
+
+</html>
+
+
